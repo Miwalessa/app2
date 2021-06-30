@@ -1,0 +1,11 @@
+void main (){
+//3. Faça um programa que calcule e mostre a área de um trapézio. Sabe-se que: Área = ((base maior + base menor) * altura) /2;
+  
+  double baseMaior = 10;
+  double baseMenor = 5;
+  double altura = 6;
+
+  double area = ((baseMaior+baseMenor)*altura)/2;
+
+  print('valor da Área é: $area metros');
+  }

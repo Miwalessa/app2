@@ -1,0 +1,12 @@
+void main() {
+  //1. Criar um programa onde ele recebe o nome, sobre nome, idade e endereço. Estes dados precisam ser impressos na tela;
+  var nome = "Mirela";
+  var sobrenome = "da Silva";
+  var idade = 27;
+  var endereco = "Rua das Acacias, 52 - Ideal - Novo Hamburgo / RS ";
+  
+  print(nome);
+  print(sobrenome);
+  print(idade);
+  print(endereco);
+}
