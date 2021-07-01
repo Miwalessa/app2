@@ -1,0 +1,12 @@
+void main (){
+  //Desenvolver um programa em Dart que verifique se um número é positivo ou negativo.
+  
+  double numero = 100;
+  
+  if (numero>=0){
+    print('$numero é um número positivo.');
+  } else{
+    print('$numero é um número negativo.');
+  }
+  
+}

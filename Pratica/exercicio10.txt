@@ -1,0 +1,14 @@
+void main (){
+//10. Desenvolva um programa em Dart que informe qual o tamanho que a cliente deve usar baseado no seu peso: P - menor que 60 kg, M - 61 a 74 e G - 75 a 85 e GG acima de 86 kg.
+  double peso = 85.5;
+  
+  if (peso<=60){
+    print('Tamanho P');
+  } else if(peso<=74){
+    print('Tamanho M');
+  } else if(peso<=85){
+    print('Tamanho G');
+  } else{
+    print('Tamanho GG');
+  }
+}

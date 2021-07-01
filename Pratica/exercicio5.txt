@@ -1,0 +1,17 @@
+void main (){
+  //5. Desenvolver um programa em Dart que calcule a média de 3 notas de um aluno. Verifique se a média for maior ou igual a 7 o aluno está aprovado, caso a média esteja entre 7 a 6 informar Exame e caso contrário Reprovado.
+  
+  double nota1 = 8;
+  double nota2 = 7;
+  double nota3 = 6;
+  double media = (nota1+nota2+nota3)/3;
+  
+   if (media>=7){
+    print ('Aprovado.');
+  }else if (media>=6){
+    print ('Exame.');
+  }else{
+     print('Reprovado.');
+   }
+  
+}

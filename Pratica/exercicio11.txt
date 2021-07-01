@@ -1,0 +1,14 @@
+void main (){
+//11. Desenvolva um programa em Dart que informe qual o novo salário do funcionário. O valor do  dissídio 4%. O funcionário somente vai receber caso tenha 1 ou mais anos de empresa. Calcule o novo salário e mostre na tela e caso não tenha direito informe “Funcionário com menos de 1 ano de empresa
+  
+  var tempo = 24; //tempo informado em meses trabalhados na empresa
+  double salario = 3000;
+  double dissidio = (salario*4)/100;
+  double novoSalario = dissidio+salario;
+  
+  if (tempo>=12){
+    print('Novo salário é $novoSalario');
+  }else{
+    print("Funcionário com menos de 1 ano de empresa");
+  }
+}
