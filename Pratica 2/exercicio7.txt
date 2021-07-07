@@ -1,0 +1,23 @@
+void main (){
+//7. Desenvolver um programa que leia a altura de 15 jogadores de futebol e calcule a média de altura, a maior altura e a menor altura. Use uma lista para armazenar as alturas.
+  
+  double maior = 0;
+  double menor = 3;
+  double media = 0;
+  const List numeros = [1.70,1.80,2.00,1.65,1.69,1.85,1.75,1.90,1.79,1.99,1.89,1.76,1.74,1.83,1.72];
+  for(double num in numeros){
+    if (num >= maior){
+     maior = num;  
+   }
+    if (num <= menor){
+     menor = num;  
+   }
+    media += num;
+  }
+   //.toStringAsFixed(2)   diz quantas casas decimais apos o ponto
+  media= media/15;
+
+ print ("A media dos jogadores é : "+ '${media.toStringAsFixed(2)}');
+  print('A altura maior é $maior');
+  print('A altura menor é $menor');
+}

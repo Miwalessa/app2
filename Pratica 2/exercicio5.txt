@@ -1,0 +1,12 @@
+void main (){
+//5.Desenvolver um programa em Dart que calcule a média da turma. Leia as médias de 10 alunos usando comandos de repetição. Use uma lista para armazenar as notas.
+
+  double media = 0;
+ const List numeros = [2, 5, 3, 7, 8, 10, 6, 4, 1, 9];
+ for (int num in numeros){
+  media += num ;
+   print (media);
+   }
+ 
+print ('A média dos alunos é ${media/10}');
+}

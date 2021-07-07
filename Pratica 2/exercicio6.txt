@@ -1,0 +1,12 @@
+void main (){
+//6. Desenvolver um programa em Dart chamado Tabuada que receba um valor e mostre a tabuada desse valor.
+  
+  double i = 2;
+  double tab = 0;
+  const List numeros = [0,1,2,3,4,5,6,7,8,9,10];
+  for (double num in numeros){
+    tab = num*i;
+    print ('$num X 2 = '+ '$tab');
+  }
+  
+}
