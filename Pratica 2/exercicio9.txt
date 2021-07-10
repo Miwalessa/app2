@@ -1,0 +1,34 @@
+void main() {
+//9. Desenvolver um programa que leia 7 pesos dos lutadores de boxes e verifique se ele está na categoria peso pesado. Sabe-se que o peso pesado é acima de 90 kg. Crie um map com o peso do boxeador e uma lista com o nome pelo índice.
+
+  Map<int,String> lutadores ={
+    1:"João",
+    2:"Jose",
+    3:"Roberto",
+    4:"Rodrigo",
+    5:"Heitor",
+    6:"Paulo",
+    7:"Bruno",
+  };
+    
+    const boxes = {
+      01:80,
+      02:90,
+      03:85,
+      04:100,
+      05:75,
+      06:95,
+      07:83,
+    };
+
+  for (int i = 1; i < 7; i++) {
+    double peso = double.parse(boxes[i].toString());
+
+    if(peso > 90){
+      print(lutadores[i]);
+      print(boxes[i]);
+    }
+  
+  
+}
+}

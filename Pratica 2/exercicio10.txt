@@ -1,0 +1,19 @@
+void main() {
+//10.Desenvolver um programa que some os valores de multas que o Detran aplicou em 1 dia (Use uma lista com valores sortidos).  E mostre a quantidade de multas de acordo com a tabela de pontos: 7 pontos (valor até 500), 14 pontos (valor de 501 a 1000) e 21 pontos (acima de 1000 reais)
+
+  int multa1 = 2;
+  int multa2 = 2;
+  int multa3 = 2;
+  int multadia = multa1+multa2+multa3;
+  int pontos1=multa1*500;
+  int pontos2=multa2*700;
+  int pontos3=multa3*1200;
+  int valor=pontos1+pontos2+pontos3;
+  
+  
+  print("Total de multas no dia foi $multadia, total $valor reais");
+  print("Total de multas de 7 pontos foi $multa1 , no valor de 500 reais");
+  print("Total de multas de 14 pontos foi $multa1 , no valor de 501 a 1000 reais");
+  print("Total de multas de 21 pontos foi $multa1 , no valor de mais de 1000 reais");
+  
+}
