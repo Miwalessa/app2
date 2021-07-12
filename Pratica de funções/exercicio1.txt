@@ -1,0 +1,18 @@
+void main() {
+//1.Escreva uma função que receba dois números inteiros retorne o menor número.
+  
+   double resSimulador = simulador(56.55, 47.80);
+  print(resSimulador);
+
+
+}
+
+double simulador(double valor1, double valor2){
+  if (valor1 <= valor2){
+  double res = valor1 ;
+  return res;
+  }else{
+    double res = valor2;
+    return res;
+  }
+}

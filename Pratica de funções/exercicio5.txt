@@ -1,0 +1,13 @@
+void main(){
+//5. Escreva uma função que recebe, por parâmetro, receba 2 valores inteiros e positivo e retorna o somatório desse valor.
+
+  int resSoma = calcSoma(10, 35);
+  print(resSoma);
+  
+}
+
+ int calcSoma(int a, int b ){
+  int res = a + b;
+  
+  return res;
+}

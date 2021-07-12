@@ -1,0 +1,19 @@
+void main(){
+//7. Faça uma função que recebe um valor inteiro e verifica se o valor é par. A função deve retornar 1 se o número for par e 0 se for ímpar
+  
+ int calcConferir = calcNumero(15);
+  print(calcConferir);
+  
+}
+
+int calcNumero(int n1) {
+  
+  int resul = n1%2;
+  
+  if(resul == 0){
+    return 1;
+  } else{
+    return 0;
+  }
+  
+}

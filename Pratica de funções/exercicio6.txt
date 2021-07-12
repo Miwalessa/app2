@@ -1,0 +1,22 @@
+void main(){
+//6. Faça uma função que recebe a idade de um nadador por parâmetro e retorna , também por parâmetro, a categoria desse nadador de acordo com a tabela abaixo (imagem2):
+
+  int idade = idadeNad(7);
+  //print(idade);
+  
+}
+
+ int idadeNad(int a){
+  if(a>=5 && a<8){
+    print("Categoria Infantil A");
+  } else if(a>=8 && a<11){
+    print ("Categoria Infantil B");
+  } else if (a>=11 && a<14){
+    print ("Categoria Juvenil A");
+  } else if(a>=14 && a<18){
+    print ("Categoria Juvenil B");
+  } else{
+    print ("Adulto");
+  }
+  
+}

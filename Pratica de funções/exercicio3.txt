@@ -1,0 +1,16 @@
+void main(){
+//3. Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo. A função deve retornar um valor booleano.
+  
+  int confePosi = conferir(56);
+  print(confePosi);
+
+
+}
+
+ int conferir(int valor1){
+  if (valor1.isNegative){
+  return 1;
+  }else{
+    return 0;
+  }
+}

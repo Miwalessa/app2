@@ -1,0 +1,16 @@
+void main(){
+//4. Faça uma função que leia um número não determinado de valores positivos e retorna a média aritmética dos mesmos
+  
+  double calcTodos = calc(3,5,9);
+  print(calcTodos);
+
+
+}
+
+ double calc(double valor1, double valor2 , double valor3){
+  double calcTodos = valor1+valor2+valor3;
+   double media=calcTodos/3;
+   
+   
+   return media;
+}

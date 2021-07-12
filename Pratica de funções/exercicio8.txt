@@ -1,0 +1,70 @@
+void main(){
+//8. Fazer um programa que receba 2 números e informe:
+
+ double calcTotal = calcNumero(10 , 6);
+  print(calcTotal);
+
+double resulTado = resPa (10 , 6);
+  print (resulTado);
+
+
+double quadrado = resQua (10 , 6);
+  print (quadrado);
+
+double triplo = resTri (10 , 6);
+  print (triplo);
+
+  double triploMetade = resTriMetade (10 , 6);
+  print (triploMetade);
+
+   double moduloMod = modulo (10 , 6);
+  print (moduloMod);
+}
+
+
+//a) A soma dos números;
+double calcNumero(double a , double b) {
+
+  double resul = a+b;
+
+  return resul;
+
+
+  }
+
+//b) O produto do primeiro número pelo quadrado do segundo;
+double resPa (double valor1 , double valor2){
+  double resPa = valor1 * (valor2 * valor2);
+
+  return resPa;
+ 
+}
+//c) O quadrado do primeiro número;
+
+double resQua (double valor1 , double valor2){
+  double resQua = valor1 * valor1;
+
+  return resQua;
+}
+
+//d) O triplo do dobro da soma dos dois números
+
+double resTri (double valor1 , double valor2){
+  double resTri = 3 * (2 * (valor1 + valor2));
+
+  return resTri;
+}
+
+// e) A metade do triplo do dobro da soma dos dois números
+
+double resTriMetade (double valor1 , double valor2){
+  double resTriMetade = (3 * (2 * (valor1 + valor2)))/2;
+
+  return resTriMetade;
+}
+
+// f) O módulo do primeiro número.
+double modulo (double valor1 , double valor2){
+  double modulo = valor1%2;
+  return modulo;
+}
